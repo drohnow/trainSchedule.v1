@@ -78,7 +78,7 @@
 
     // Next Train
     var nextTrain = moment().add(tMinutesTillTrain, "minutes").format("hh:mm");
-    console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm"));
+    console.log("ARRIVAL TIME: " + nextTrain)
 
 console.log(childSnapshot.val());
 
@@ -96,6 +96,7 @@ console.log(childSnapshot.val());
 
 $("#trainTable").append("<tr><td>" + Name + "</td><td>" + Dest + "</td><td>" +
   miFrequency + "</td><td>" + nextTrain + "</td><td>" + tMinutesTillTrain + "</td><td>");
+console.log("completed")
 
   });
 
