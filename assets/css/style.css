@@ -1,11 +1,20 @@
+
+
+.container {
+background-image: url("../images/imgSantaFe.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.jumbotron {
+background-image: url("../images/imgSantaFe.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
 .banner {
-	background-image: url("../images/trainBG1.jpeg");
-	background-color: Gray;
-	opacity: .4;
-	
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: ;
 	width: 100%;
 	height: 200px;
 }
@@ -25,7 +34,13 @@
 	font-size: 80px;
 }
 
-.divTrainSchedule {
-	background-color: Black;
-	color: Purple;
+.panel-heading {
+	background-color: #8383af !important;
 }
+
+
+.btn {
+	background-color: #8383af;
+	
+}
+
